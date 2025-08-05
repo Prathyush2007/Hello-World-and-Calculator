@@ -1,37 +1,36 @@
-Name: Prathyush Nimmagadda 
-PRN: 24070123064 
+Name: Prathyush Nimmagadda  
+PRN: 24070123064  
 Batch: ENTC A3  
 
 # C++ Programs: Basic Input/Output and Arithmetic Operations
 
-## Overview
-This repository contains two basic C++ programs designed for beginners. The first program introduces console output using `cout`, while the second demonstrates user input and basic arithmetic operations using `cin`. These foundational exercises help new learners become familiar with C++ syntax, structure, and standard input/output operations.
+## Overview  
+This collection features two beginner-friendly C++ programs. The first illustrates simple console output using `cout`, while the second introduces reading user input with `cin` and performing fundamental arithmetic calculations. These exercises serve as an essential primer to C++ syntax, structure, and standard input/output mechanisms.
 
-## Program 1: Hello World and Introduction
-
-**Purpose**  
-This program demonstrates how to display messages on the console using the `cout` stream. It prints a greeting followed by a name, serving as an introductory exercise to C++ programming and console output.
-
-**Concepts Covered**
-- Standard Library Usage: Includes necessary libraries for input/output functionality.
-- Program Entry Point: Uses the `main` function as the starting point of execution.
-- Console Output: Utilizes `cout` to print text to the terminal.
-- Output Formatting: Demonstrates how to organize output on multiple lines.
-- Program Termination: Ends with `return 0;` to indicate successful execution.
-
-## Program 2: Arithmetic Operations
+## Program 1: Hello World and Basic Output
 
 **Purpose**  
-This program accepts two floating-point numbers as input from the user and performs four basic arithmetic operations: addition, subtraction, multiplication, and division. The results are then printed to the console.
+This program shows how to print messages on the console using the `cout` stream. It outputs a greeting along with a name, providing an initial exposure to C++ programming and console display techniques.
 
-**Concepts Covered**
-- User Input: Uses the `cin` stream to accept input from the user.
-- Data Types: Employs the `float` data type to handle both integers and decimal values.
-- Arithmetic Operations: Demonstrates use of addition (`+`), subtraction (`-`), multiplication (`*`), and division (`/`) operators.
-- Variables: Stores results of calculations in separate variables.
-- Operator Precedence: Reinforces understanding of how operations are evaluated.
-- Input Validation: Highlights the need to handle division by zero appropriately.
+**Key Concepts**
+- Inclusion of Standard Libraries: Incorporates headers needed for input/output functions.
+- Entry Point of Program: Implements the `main` function as the starting execution point.
+- Console Display: Uses `cout` for printing text to the screen.
+- Output Arrangement: Demonstrates formatting by printing messages on separate lines.
+- Program Exit Status: Ends with `return 0;` to indicate normal termination.
 
-## Conclusion
+## Program 2: Performing Arithmetic Operations
 
-These two C++ programs provide a basic introduction to input/output operations and arithmetic processing. The first program emphasizes formatting and console output, while the second builds on that foundation by incorporating user input, calculations, and conditional logic. Together, they form a solid starting point for understanding C++ syntax and program flow.
+**Purpose**  
+This program takes two floating-point inputs from the user and executes four arithmetic calculations: addition, subtraction, multiplication, and division. The computed results are then displayed via the console.
+
+**Key Concepts**
+- Handling User Input: Utilizes the `cin` stream to receive data from the user.
+- Floating-Point Variables: Employs `float` data type to manage both whole numbers and decimals.
+- Arithmetic Computation: Applies operators `+`, `-`, `*`, and `/` for calculations.
+- Result Storage: Saves calculated values in dedicated variables.
+- Operator Precedence: Reinforces understanding of operation evaluation order.
+- Division Safeguard: Highlights the importance of checking for division by zero.
+
+## Conclusion  
+These two programs provide a clear introduction to input/output and arithmetic processing in C++. The first program focuses on output formatting and console messaging, while the second expands on this by incorporating user inputs, calculations, and basic validation concepts. Collectively, they establish a firm foundation for grasping essential C++ syntax and program flow.
